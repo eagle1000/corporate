@@ -1,0 +1,380 @@
+.page-section-2 {
+  padding: 2rem 0;
+}
+
+#intro-div {
+  border-bottom: 2px solid #a8a8a8;
+  padding-bottom: 30px;
+}
+
+.icon-row {
+  border-bottom: 2px solid #a8a8a8;
+  padding-bottom: 30px;
+}
+
+.icon-col {
+  margin-bottom: 20px;
+}
+
+.intro-txt {
+  font-size: 20px;
+  color: #a8a8a8;
+  font-weight: 400;
+  font-family: 'Roboto Slab', serif;
+}
+
+.icon-title {
+  color: rgba(21, 160, 133, .7);
+  font-weight: 400;
+  font-family: 'Roboto Slab', serif;
+}
+
+.title-txt {
+  color: rgba(21, 160, 133, .7);
+  font-weight: 400;
+  font-family: 'Roboto Slab', serif;
+}
+
+#contact {
+  background-color: #15a085;
+}
+
+#contact-title {
+  color: #ffffff;
+}
+
+#contact-txt {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.img-div {
+  text-align: center;
+}
+
+#arbolabc {
+  color: rgba(21, 160, 133, .7);
+  font-family: 'Roboto Slab', serif;
+}
+
+.program-txt-row {
+  margin-bottom: 30px;
+}
+
+#arbolabc-link:hover {
+  text-decoration: none;
+}
+
+#mainNav {
+  background-color: #ffffff;
+}
+
+#mainNav.navbar-shrink {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #ffffff;
+}
+
+#sendMessageButton {
+  background-color: #3cd0b1;
+  border-color: #3cd0b1;
+}
+
+#modalCloseBtn {
+  background-color: rgba(21, 160, 133, .7);
+  border-color: rgba(21, 160, 133, .7);
+}
+
+.icon-img {
+  width: 100px;
+}
+
+.icon-txt {
+  font-size: 16px;
+}
+
+#sub-txt {
+  font-size: 16px;
+}
+
+#name {
+  height: 50px;
+}
+
+#email {
+  height: 50px;
+}
+
+#phone {
+  height: 50px;
+}
+
+#message {
+  height: 185px;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border: 1px solid #888;
+  width: 60%;
+}
+
+.modal-txt-col {
+  text-align: center;
+}
+
+.modal-btn-col {
+  text-align: center;
+}
+
+.modal-txt {
+  font-size: 16px;
+  line-height: 32px;
+  color: #a8a8a8;
+  font-family: 'Roboto Slab', serif;
+}
+
+@media only screen and (max-width:1199px) {
+  .modal-content {
+    width: 68%;
+  }
+
+  .icon-title {
+    font-size: 1.4rem;
+  }
+
+}
+
+@media only screen and (max-width:991px) {
+  .modal-content {
+    width: 80%;
+  }
+
+  #modalCloseBtn {
+    font-size: 1rem;
+  }
+
+  #logo {
+    height: 2.5rem !important;
+  }
+
+  .intro-txt {
+    font-size: 18px;
+  }
+
+  #intro-div {
+    padding-bottom: 20px;
+  }
+
+  .page-section h2.section-heading {
+    font-size: 1.8rem;
+  }
+
+  #arbolabc {
+    font-size: 1.4rem;
+  }
+
+  .icon-img {
+    width: 90px;
+  }
+
+  .icon-txt {
+    font-size: 15px;
+  }
+
+  #sub-txt {
+    font-size: 15px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 3rem;
+  }
+
+  #contact-txt {
+    font-size: 15px;
+  }
+
+}
+
+@media only screen and (max-width:840px) {
+  .modal-content {
+    width: 90%;
+  }
+
+}
+
+@media only screen and (max-width:840px) {
+  .modal-txt {
+    font-size: 14px;
+  }
+
+}
+
+@media only screen and (max-width:767px) {
+  #logo {
+    height: 2.25rem !important;
+  }
+
+  /*    .intro-txt {
+      font-size: 17px;
+  }*/
+  .page-section h2.section-heading {
+    font-size: 1.7rem;
+  }
+
+  #arbolabc {
+    font-size: 1.3rem;
+  }
+
+  .icon-title {
+    font-size: 1.3rem;
+  }
+
+  .icon-img {
+    width: 80px;
+  }
+
+  .icon-txt {
+    font-size: 14px;
+  }
+
+  #sub-txt {
+    font-size: 14px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2rem;
+  }
+
+  #contact-txt {
+    font-size: 14px;
+  }
+
+}
+
+.icon-col {
+  margin-bottom: 30px;
+}
+
+}
+
+@media only screen and (max-width:659px) {
+.modal-txt-col {
+  text-align: left;
+}
+
+}
+
+@media only screen and (max-width:575px) {
+#logo {
+  height: 2rem !important;
+}
+
+.intro-txt {
+  font-size: 16px;
+}
+
+.page-section h2.section-heading {
+  font-size: 1.5rem;
+}
+
+#arbolabc {
+  font-size: 1.2rem;
+}
+
+.icon-title {
+  font-size: 1.2rem;
+}
+
+.icon-img {
+  width: 70px;
+}
+
+#name {
+  font-size: .9rem;
+}
+
+#email {
+  font-size: .9rem;
+}
+
+#phone {
+  font-size: .9rem;
+}
+
+#message {
+  font-size: .9rem;
+}
+
+}
+
+@media only screen and (max-width:399px) {
+#logo {
+  height: 1.85rem !important;
+}
+
+.intro-txt {
+  font-size: 15px;
+}
+
+.page-section h2.section-heading {
+  font-size: 1.3rem;
+}
+
+#arbolabc {
+  font-size: 1.1rem;
+}
+
+.icon-title {
+  font-size: 1.1rem;
+}
+
+.icon-img {
+  width: 60px;
+}
+
+.icon-txt {
+  font-size: 13px;
+}
+
+#sub-txt {
+  font-size: 13px;
+}
+
+#contact-txt {
+  font-size: 13px;
+}
+
+#name {
+  height: 30px;
+}
+
+#email {
+  height: 30px;
+}
+
+#phone {
+  height: 30px;
+}
+
+}
+
+}
